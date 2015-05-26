@@ -27,8 +27,8 @@ tmp = int(input())
 tmps = tmp-21
 ox = 20.946
 co = 0.04
-ni = 78.079
-ar = 0.934
+ni = 0.934
+ar = 78.079
 ot = 0.001
 cos = co+0.96
 tmpd = 1
@@ -181,7 +181,7 @@ while active == 1:
                 print('Temperature:',tmp,'*C')
                 print()
                 print('Carbon Dioxide %:',co)
-                print('Oxygen %        :',ox)
+                print('Radon %         :',ox)
                 print('Nitrogen %      :',ni)
                 print('Argon %         :',ar)
                 print('Other %         :',ot)
